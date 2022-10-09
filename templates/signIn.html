@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign in</title>
+    <script src="signIn.js"></script>
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+<main>
+    <div class="login-menu">
+        <div class="no-acc">
+            <p class="small white">Нет аккаунта?</p>
+            <p class="small blue" id="signUp">← Зарегистрироваться</p>
+        </div>
+        <div class="login-inputs">
+            <p>Вход в аккаунт</p>
+            <div>
+                <div>
+                    <p class="small grey">Почта</p>
+                    <label id="email">
+                        <input>
+                    </label>
+                    <div></div>
+                </div>
+                <div>
+                    <div class="password-annotation">
+                        <span class="small grey">Пароль</span>
+                        <span class="small blue" id="forgotPassword">Забыли пароль?</span>
+                    </div>
+                    <label id="password">
+                        <input type="password">
+                    </label>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <div class="button-space ">
+            <a class="login-button" id="signIn">Войти</a>
+        </div>
+    </div>
+</main>
+</body>
+</html>

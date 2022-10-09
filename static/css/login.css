@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&display=swap');
+
+html {
+    height: 100%;
+    background: linear-gradient(#113370, #040227);
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-menu {
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(180deg, #111112 0%, #2A282C 100%);
+}
+
+.no-acc, .login-inputs, .button-space, .newCode, .code {
+    padding: 15px;
+}
+
+.button-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #55A3EA 0%, #0561B5 100%);
+    border-radius: 5px;
+    padding: 10px 50px 10px 50px;
+    margin-bottom: 20px;
+    width: 75%;
+}
+
+input {
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+    background: #29292D;
+    box-shadow: inset 0px 1px 2px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: none;
+}
+
+.password-annotation {
+    margin: 13px 0 13px 0;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="password"] {
+    background-image: url("../img/visibilityPassword.svg");
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 10%;
+}
+
+.stages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.stage {
+    height: 5px;
+    width: 80px;
+    margin: 10px;
+    margin-bottom: 15px;
+    border-radius: 1px;
+}
+
+.active {
+    background: linear-gradient(180deg, #C15BFF 0%, #6E1870 100%);
+}
+
+.unactive {
+    background: #5B5B63;
+}
+
+.close {
+    position: absolute;
+    display: flex;
+    width: 350px;
+    height: 20px;
+    margin: 20px;
+    justify-content: end;
+}
+
+.image {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    height: 150px;
+}
+
+.code {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.number {
+    width: 15%;
+    height: 45px;
+    font-size: 200%;
+    text-align: center;
+    caret-color: transparent;
+}
+
+.newCode {
+    margin-bottom: 10px;
+}
+
+.newPassword {
+    margin-top: 50px;
+}
+
+* {
+    color: white;
+}
+
+.small {
+    font-size: 13px;
+}
+
+.blue {
+    background: linear-gradient(180deg, #55A3EA 0%, #0561B5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grey {
+    color: #BBBABA;
+}
+
+.small.blue {
+    display: inline-block;
+}
+
+.red {
+    color: red;
+}
